@@ -20,6 +20,9 @@ Bundle 'tpope/vim-abolish.git'
 " Bundles from programming set
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdcommenter'
+if executable('ctags')
+    Bundle 'majutsushi/tagbar'
+endif
 
 " Auto-complete bundles
 Bundle 'Shougo/neocomplcache'
