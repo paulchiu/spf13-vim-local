@@ -1,0 +1,8 @@
+set guifont=Monaco:h11
+set nolist
+if has('gui_macvim')
+    set transparency=0
+endif
+if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eighties.vim"))
+    color Tomorrow-Night-Eighties
+endif

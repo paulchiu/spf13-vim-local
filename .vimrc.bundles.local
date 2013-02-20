@@ -1,0 +1,45 @@
+" Override bundles
+let g:override_spf13_bundles = 1
+
+" Bundles from general set
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-surround'
+Bundle 'spf13/vim-autoclose'
+Bundle 'kien/ctrlp.vim'
+Bundle 'vim-scripts/sessionman.vim'
+Bundle 'matchit.zip'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'myusuf3/numbers.vim'
+if !exists('g:spf13_no_views')
+    Bundle 'vim-scripts/restore_view.vim'
+endif
+Bundle 'tpope/vim-abolish.git'
+
+" Bundles from programming set
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/nerdcommenter'
+
+" Auto-complete bundles
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet'
+Bundle 'honza/snipmate-snippets'
+
+" JS, Html, & other bundles
+Bundle 'leshill/vim-json'
+Bundle 'pangloss/vim-javascript'
+Bundle 'amirh/HTML-AutoCloseTag'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle 'tpope/vim-markdown'
+
+" Custom bundles (need to be installed spearately)
+" http://www.vim.org/scripts/script.php?script_id=42
+if filereadable(expand("~/.vim/bundle/bufexplorer/plugin/bufexplorer.vim"))
+    Bundle 'bufexplorer'
+endif
+
+" https://github.com/chriskempson/tomorrow-theme/tree/master/vim
+if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eighties.vim"))
+    Bundle 'tomorrow-night'
+endif
