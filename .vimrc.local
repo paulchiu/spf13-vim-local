@@ -1,8 +1,24 @@
+" Set default font for Mac
 set guifont=Monaco:h11
+
+" No tab/space markers
 set nolist
+
+" No need for scroll offset
+set scrolloff=0
+
+" No transparency
 if has('gui_macvim')
     set transparency=0
 endif
+
+" Load Tomorrow-Night color scheme
 if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eighties.vim"))
     color Tomorrow-Night-Eighties
 endif
+
+" Do custom version of easy windows
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+map <C-H> <C-W>h

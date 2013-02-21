@@ -1,5 +1,7 @@
-" Override bundles
+" Override bundles and other config rules
 let g:override_spf13_bundles = 1
+let g:spf13_no_easyWindows = 1
+let g:spf13_no_fastTabs = 1
 
 " Bundles from general set
 Bundle 'altercation/vim-colors-solarized'
