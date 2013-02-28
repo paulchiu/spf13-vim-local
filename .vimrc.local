@@ -1,15 +1,17 @@
-" Set default font for Mac
-set guifont=Monaco:h11
-
 " No tab/space markers
 set nolist
 
 " No need for scroll offset
 set scrolloff=0
 
-" No transparency
+" GUI options
 if has('gui_macvim')
+    " Set default font for Mac
+    set guifont=Monaco:h11
+    " No transparency
     set transparency=0
+    " Set cursor
+    set guicursor=n-v-c:hor5-Cursor-blinkwait500-blinkoff500-blinkon500
 endif
 
 " Load Tomorrow-Night color scheme
