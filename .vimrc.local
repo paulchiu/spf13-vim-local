@@ -27,3 +27,9 @@ map <C-H> <C-W>h
 
 " Set visual mode behaviour
 behave mswin
+
+" Remove expand tab
+set noexpandtab
+
+" Set shell
+set shell=bash\ --login
