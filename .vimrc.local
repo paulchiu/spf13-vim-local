@@ -25,6 +25,10 @@ map <C-K> <C-W>k
 map <C-L> <C-W>l
 map <C-H> <C-W>h
 
+" Undo visual shifting (so that it does exit Visual mode)
+vnoremap < <
+vnoremap > >
+
 " Set visual mode behaviour
 behave mswin
 
