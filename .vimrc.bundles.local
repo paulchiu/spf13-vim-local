@@ -39,6 +39,11 @@ Bundle 'hail2u/vim-css3-syntax'
 Bundle 'tpope/vim-markdown'
 
 " Custom bundles (need to be installed spearately)
+" http://www.vim.org/scripts/script.php?script_id=2077
+if filereadable(expand("~/.vim/bundle/phtml/syntax/phtml.vim"))
+    Bundle 'phtml'
+endif
+
 " http://www.vim.org/scripts/script.php?script_id=42
 if filereadable(expand("~/.vim/bundle/bufexplorer/plugin/bufexplorer.vim"))
     Bundle 'bufexplorer'
@@ -48,3 +53,6 @@ endif
 if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eighties.vim"))
     Bundle 'tomorrow-night'
 endif
+
+" https://github.com/derekwyatt/vim-scala
+Bundle 'derekwyatt/vim-scala'

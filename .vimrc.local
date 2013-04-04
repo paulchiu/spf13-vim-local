@@ -37,3 +37,6 @@ set noexpandtab
 
 " Set shell
 set shell=bash\ --login
+
+" Scala filetype detection
+au BufRead,BufNewFile *.scala,*.sbt set filetype=scala
