@@ -12,15 +12,10 @@ if has('gui_macvim')
     set transparency=0
     " Set cursor
     set guicursor=n-v-c:hor5-Cursor-blinkwait500-blinkoff500-blinkon500
-
-    " Load Tomorrow-Night color scheme
-    if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eighties.vim"))
-        color Tomorrow-Night-Eighties
-    endif
-else
-    " No special color (set in xterm)
-    colo Default
 endif
+
+" Color option
+colo solarized
 
 " Do custom version of easy windows
 map <C-J> <C-W>j
