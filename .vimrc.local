@@ -15,6 +15,7 @@ if has('gui_macvim')
 endif
 
 " Color option
+set background=dark
 colo solarized
 
 " Do custom version of easy windows
