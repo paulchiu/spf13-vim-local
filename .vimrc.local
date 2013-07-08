@@ -39,3 +39,4 @@ set shell=bash\ --login
 
 " Scala filetype detection
 au BufRead,BufNewFile *.scala,*.sbt set filetype=scala
+au BufRead,BufNewFile *.go set filetype=go

@@ -54,5 +54,8 @@ if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eight
     Bundle 'tomorrow-night'
 endif
 
-" https://github.com/derekwyatt/vim-scala
+" Scala support https://github.com/derekwyatt/vim-scala
 Bundle 'derekwyatt/vim-scala'
+
+" Golang support http://github.com/jnwhiteh/vim-golang
+Bundle 'http://github.com/jnwhiteh/vim-golang'
