@@ -38,7 +38,7 @@ Bundle 'amirh/HTML-AutoCloseTag'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'tpope/vim-markdown'
 
-" Custom bundles (need to be installed spearately)
+" Custom bundles (need to be installed separately)
 " http://www.vim.org/scripts/script.php?script_id=2077
 if filereadable(expand("~/.vim/bundle/phtml/syntax/phtml.vim"))
     Bundle 'phtml'
@@ -55,7 +55,7 @@ if filereadable(expand("~/.vim/bundle/tomorrow-night/colors/Tomorrow-Night-Eight
 endif
 
 " Scala support https://github.com/derekwyatt/vim-scala
-Bundle 'derekwyatt/vim-scala'
+" Bundle 'derekwyatt/vim-scala'
 
 " Golang support http://github.com/jnwhiteh/vim-golang
-Bundle 'http://github.com/jnwhiteh/vim-golang'
+" Bundle 'http://github.com/jnwhiteh/vim-golang'

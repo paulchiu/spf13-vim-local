@@ -29,7 +29,7 @@ vnoremap < <
 vnoremap > >
 
 " Set visual mode behaviour
-behave mswin
+behave xterm
 
 " Remove expand tab
 set noexpandtab
@@ -38,5 +38,5 @@ set noexpandtab
 set shell=bash\ --login
 
 " Scala filetype detection
-au BufRead,BufNewFile *.scala,*.sbt set filetype=scala
-au BufRead,BufNewFile *.go set filetype=go
+" au BufRead,BufNewFile *.scala,*.sbt set filetype=scala
+" au BufRead,BufNewFile *.go set filetype=go
